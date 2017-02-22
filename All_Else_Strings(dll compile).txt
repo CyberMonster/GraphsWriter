@@ -1,0 +1,11 @@
+library func_My;
+type
+nc = class
+constructor;
+begin
+end;
+public function func_(x: real): array of real;
+begin
+end;
+end;
+end.

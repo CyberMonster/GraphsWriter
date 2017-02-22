@@ -1,0 +1,12 @@
+  private
+    maxx_: real;
+    maxy_: real;
+    minx_: real;
+    miny_: real;
+    Point_: integer;
+
+  public property maxx: real read maxx_ write maxx_;
+  public property maxy: real read maxy_ write maxy_;
+  public property minx: real read minx_ write minx_;
+  public property miny: real read miny_ write miny_;
+  public property AmountOfDots: integer read Point_ write Point_;

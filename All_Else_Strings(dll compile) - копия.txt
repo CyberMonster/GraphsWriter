@@ -1,0 +1,5 @@
+library func_My;
+function func_(x: real):real;
+begin
+end;
+end.

@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <unit name="Unit2" />
+  <members>
+    <member name="M:Form1.Stepx(System.Drawing.Pen,System.Drawing.PointF,System.Drawing.Graphics@,System.Int32)">
+      <summary>Вызывает отрисовку пометки на pictureBox1 длиной Count_ с точки Point_ в объект Graph
+</summary>
+    </member>
+    <member name="M:Form1.Stepy(System.Drawing.Pen,System.Drawing.PointF,System.Drawing.Graphics@,System.Int32)">
+      <summary>Вызывает отрисовку пометки на pictureBox1 длиной Count_ с точки Point_ в объект Graph
+</summary>
+    </member>
+    <member name="M:Form1.DrawX_(System.Drawing.Pen,System.Drawing.PointF,System.Drawing.Graphics@,System.Int32)">
+      <summary>Вызывает отрисовку креста на месте, с координатами point в объект Graph, размерами const_*const_;
+</summary>
+    </member>
+    <member name="M:Form1.nt">
+      <summary>Вызывает перерисовку pictureBox1
+</summary>
+    </member>
+    <member name="P:Form1.Long_Line">
+      <summary>Размер линии с подписью
+</summary>
+    </member>
+    <member name="P:Form1.Short_Line">
+      <summary>Размер линии без подписи
+</summary>
+    </member>
+    <member name="P:Form1.XLine">
+      <summary>Размер пометок введеных точек
+</summary>
+    </member>
+    <member name="P:Form1.startx">
+      <summary>Расстояние от левой границы области отображения
+до начала отображения надписей
+</summary>
+    </member>
+    <member name="P:Form1.starty">
+      <summary>Расстояние от нижней границы области отображения
+до начала отображения надписей
+</summary>
+    </member>
+    <member name="P:Form1.Pen_Line_End_Const">
+      <summary>Размер стрелки завершения координат
+</summary>
+    </member>
+    <member name="P:Form1.maxx">
+      <summary>Максимальное значение x
+</summary>
+    </member>
+    <member name="P:Form1.maxy">
+      <summary>Максимальное значение y
+</summary>
+    </member>
+    <member name="P:Form1.minx">
+      <summary>Минимальное значение x
+</summary>
+    </member>
+    <member name="P:Form1.miny">
+      <summary>Минимальное значение y
+</summary>
+    </member>
+    <member name="P:Form1.a">
+      <summary>Коэфициент a в уравнении y=ax+b
+</summary>
+    </member>
+    <member name="P:Form1.b">
+      <summary>Коэфициент b в уравнении y=ax+b
+</summary>
+    </member>
+    <member name="P:Form1.AmountOfDots">
+      <summary>Количество подписаных значений
+</summary>
+    </member>
+    <member name="P:Form1.FPS">
+      <summary>Количество FPS
+</summary>
+    </member>
+    <member name="P:Form1.PVal1PX_X">
+      <summary>Значение x, соответствующее 1му PX
+</summary>
+    </member>
+    <member name="P:Form1.PVal1PX_Y">
+      <summary>Значение y, соответствующее 1му PX
+</summary>
+    </member>
+    <member name="P:Form1.Rectangle">
+      <summary>Допустимая область отрисовки
+</summary>
+    </member>
+    <member name="P:Form1.Valuesx">
+      <summary>Значения аргумента функции
+</summary>
+    </member>
+    <member name="P:Form1.Valuesy">
+      <summary>Значения функции
+</summary>
+    </member>
+    <member name="P:Form1.RectangleB">
+      <summary>Указывает, следует ли выводить систему координат в виде квадрата
+</summary>
+    </member>
+    <member name="P:Form1.SFPS">
+      <summary>Выводит FPS в методе nt при true
+</summary>
+    </member>
+    <member name="P:Form1.M_Ch_Args">
+      <summary>Предидущие координаты мыши на экране. Используются
+для определения направления движения графика
+</summary>
+    </member>
+    <member name="P:Form1.Sence_X">
+      <summary>Чувствительность X
+</summary>
+    </member>
+    <member name="P:Form1.Sence_Y">
+      <summary>Чувствительность Y
+</summary>
+    </member>
+    <member name="P:Form1.Zoom_Par">
+      <summary>Свойство чуствительности масштабирования
+</summary>
+    </member>
+    <member name="P:Form1.Current_Dll_Loaded">
+      <summary>Загруженная .dll (функция для отрисовки)
+</summary>
+    </member>
+    <member name="P:Form1.ob_func">
+      <summary>Объект хранщий класс из сборки с пользовательскими функциями
+</summary>
+    </member>
+    <member name="P:Form1._dllWay">
+      <summary>Путь к сборке, хранящей
+введеные пользователем функции
+</summary>
+    </member>
+    <member name="P:Form1._Debug_File">
+      <summary>Путь к отладочному файлу
+</summary>
+    </member>
+    <member name="P:Form1.DSN">
+      <summary>Путь к утилите очистки хеша
+</summary>
+    </member>
+    <member name="P:Form1.FRun">
+      <summary>Параметр, показывающий, является ли
+данный вызов первым в данной форме
+</summary>
+    </member>
+    <member name="P:Form1.Live_Serv">
+      <summary>Параетр, для отслеживания количества
+повторений при рекурсивных вызовах
+</summary>
+    </member>
+    <member name="P:Form1.Enabled_Arr_Func_">
+      <summary>Вектор, хранящий параметр, показывающий,
+следует ли выводить на экран функцию
+</summary>
+    </member>
+    <member name="P:Form1.Files_Working_Directory">
+      <summary>Рабочая папка для файлов конкретного
+экземпляра откомпилированной функции
+... DL_0\WF_0\
+</summary>
+    </member>
+    <member name="P:Form1.Coordinats_System_Color">
+      <summary>Цвет системы координат
+</summary>
+    </member>
+    <member name="P:Form1.Coordinats_End_System_Color">
+      <summary>Цвет маркера завершения координат
+</summary>
+    </member>
+    <member name="P:Form1.fn_my">
+      <summary>Массив значений пользовательских функций, при заданном параметре
+</summary>
+    </member>
+    <member name="P:Form1.Dash_Of_Func_Line">
+      <summary>Тип окончания функций
+</summary>
+    </member>
+    <member name="P:Form1.Width_Func_Line">
+      <summary>Толщина линий функций
+</summary>
+    </member>
+    <member name="P:Form1.Width_Coordinates">
+      <summary>Толщина системы координат
+</summary>
+    </member>
+    <member name="P:Form1.Prev_Pos_Context_Menu">
+      <summary>Позиция отображения контекстного меню используется
+для того, чтобы при клике на элемент
+меню, открыть его снова в том - же месте
+</summary>
+    </member>
+    <member name="P:Form1.Long_Line_Width">
+      <summary>Толщина большой линии
+</summary>
+    </member>
+    <member name="P:Form1.Short_Line_Width">
+      <summary>Толщина малой линии
+</summary>
+    </member>
+    <member name="F:Form1.Correct_For_Bottoms">
+      <summary>Корректеровка, положения кнопок, при изменении размера
+</summary>
+    </member>
+    <member name="F:Form1.Long_Line_">
+      <summary>Размер длинной линии системы координат (подписанной)
+</summary>
+    </member>
+    <member name="F:Form1.Short_Line_">
+      <summary>Размер короткой линии системы координат (не подписанной)
+</summary>
+    </member>
+    <member name="F:Form1.XLine_">
+      <summary>Размер маркера вводимых значений
+</summary>
+    </member>
+    <member name="F:Form1.startx_">
+      <summary>Отступ слева от PictureBox
+</summary>
+    </member>
+    <member name="F:Form1.starty_">
+      <summary>Отступ снизу PictureBox
+</summary>
+    </member>
+    <member name="F:Form1.endx__">
+      <summary>Расстояние в px, от конца облости отображения до отображения координатной сетки
+</summary>
+    </member>
+    <member name="F:Form1.endy__">
+      <summary>Расстояние в px, от конца облости отображения до отображения координатной сетки
+</summary>
+    </member>
+    <member name="F:Form1.CorrectOutY_">
+      <summary>Расстояние от текста до координатной сетки
+</summary>
+    </member>
+    <member name="F:Form1.CorrectOutX_">
+      <summary>Расстояние от текста до координатной сетки
+</summary>
+    </member>
+    <member name="F:Form1.Pen_Line_End_Const_">
+      <summary>Размер треугольника завершения системы координат
+</summary>
+    </member>
+    <member name="F:Form1.M_Ch_Args_">
+      <summary>Параметры положения мыши до наступления события смещения
+</summary>
+    </member>
+    <member name="F:Form1.Sence_X_">
+      <summary>Чувствительность X
+</summary>
+    </member>
+    <member name="F:Form1.Sence_Y_">
+      <summary>Чувствительность Y
+</summary>
+    </member>
+    <member name="F:Form1.Work_Directory">
+      <summary>Корневая деректория проекта
+</summary>
+    </member>
+    <member name="F:Form1.Coordinats_System_Color_">
+      <summary>Цвет системы координат
+</summary>
+    </member>
+    <member name="F:Form1.Coordinats_End_System_Color_">
+      <summary>Цвет маркера завершения координат
+</summary>
+    </member>
+    <member name="F:Form1.Form_Active_">
+      <summary>Параметр, показывающий, активна ли
+форма в данный момент времени
+</summary>
+    </member>
+    <member name="F:Form1.Hand_Active_">
+      <summary>Параметр, показывающий, необходимость
+полной перерисовки формы и всех ф-ий
+</summary>
+    </member>
+  </members>
+</doc>

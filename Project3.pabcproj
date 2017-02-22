@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project FileVersion="2" Name="Project3" MainFile="Project3.pas" OutputFileName="Project3.exe" OutputDirectory="" ProjectType="WindowsApp" IncludeDebugInfo="True" GenerateXMLDoc="True" CommandLineArguments="" AppIcon="" DeleteEXE="True" DeletePDB="True" Product="" Company="" Trademark="" Copyright="" MajorVersion="0" MinorVersion="0" BuildVersion="0" RevisionVersion="0">
+  <Items>
+    <Item Type="SourceFile" Name="Project3.pas" Path="Project3.pas" />
+    <Item Type="SourceFile" Name="Unit1.pas" Path="Unit1.pas" />
+    <Item Type="SourceFile" Name="Unit2.pas" Path="Unit2.pas" />
+    <Item Type="SourceFile" Name="Unit3.pas" Path="Unit3.pas" />
+    <Item Type="SourceFile" Name="Unit4.pas" Path="Unit4.pas" />
+    <Item Type="Reference" AssemblyName="System" FullAssemblyName="System.dll" />
+    <Item Type="Reference" AssemblyName="System.Core" FullAssemblyName="System.Core.dll" />
+    <Item Type="Reference" AssemblyName="System.Data" FullAssemblyName="System.Data.dll" />
+    <Item Type="Reference" AssemblyName="System.Data.DataSetExtensions" FullAssemblyName="System.Data.DataSetExtensions.dll" />
+    <Item Type="Reference" AssemblyName="System.Xml" FullAssemblyName="System.Xml.dll" />
+    <Item Type="Reference" AssemblyName="System.Xml.Linq" FullAssemblyName="System.Xml.Linq.dll" />
+    <Item Type="Reference" AssemblyName="System.Drawing" FullAssemblyName="System.Drawing.dll" />
+    <Item Type="Reference" AssemblyName="System.Windows.Forms" FullAssemblyName="System.Windows.Forms.dll" />
+    <Item Type="Reference" AssemblyName="System.IO.Log" FullAssemblyName="System.IO.Log.dll" />
+    <Item Type="Reference" AssemblyName="mscorlib" FullAssemblyName="mscorlib.dll" />
+  </Items>
+</Project>
